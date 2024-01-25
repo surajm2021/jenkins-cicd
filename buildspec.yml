@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-        - sudo apt-get install python-pip
         - python -m pip install Flask
   build:
     commands:
