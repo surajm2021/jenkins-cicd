@@ -3,13 +3,13 @@ version: 0.2
 phases:
   install:
     commands:
-        - pip3 install urllib3
-        - pip3 install flask
+        - sudo pip3 install urllib3
+        - sudo pip3 install flask
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - python test_app.py
+      - sudo python test_app.py
   post_build:
     commands:
       - echo Build completed on `date`
