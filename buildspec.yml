@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+        - pip install urllib3[secure]
         - pip install flask
   build:
     commands:
