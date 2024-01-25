@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-        - pip install urllib3
-        - pip install flask
+        - pip3 install urllib3
+        - pip3 install flask
   build:
     commands:
       - echo Build started on `date`
