@@ -3,12 +3,12 @@ version: 0.2
 phases:
   install:
     commands:
-        - python -m pip install Flask
+        - ls
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - python test_app.py
+      - ls
   post_build:
     commands:
       - echo Build completed on `date`
